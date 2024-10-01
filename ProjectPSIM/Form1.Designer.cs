@@ -177,6 +177,7 @@
             this.button2.Text = "            Transaksi";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel4
             // 
@@ -230,6 +231,7 @@
             // 
             // panel6
             // 
+            this.panel6.BackColor = System.Drawing.Color.White;
             this.panel6.Controls.Add(this.button5);
             this.panel6.Location = new System.Drawing.Point(3, 349);
             this.panel6.Name = "panel6";
