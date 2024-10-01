@@ -1,0 +1,13 @@
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\bin\Debug\ProjectPSIM.exe.config
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\bin\Debug\ProjectPSIM.exe
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\bin\Debug\ProjectPSIM.pdb
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.AssemblyReference.cache
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.Form1.resources
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.Properties.Resources.resources
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.GenerateResource.cache
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.CoreCompileInputs.cache
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.exe
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.pdb
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\bin\Debug\ReaLTaiizor.dll
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\bin\Debug\ReaLTaiizor.xml
+D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.CopyComplete
