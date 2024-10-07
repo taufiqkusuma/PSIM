@@ -34,19 +34,22 @@ namespace ProjectPSIM
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+
         }
 
-<<<<<<< HEAD
+
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
-=======
+        {
+
+        }
+
         private void button3_Click(object sender, EventArgs e)
->>>>>>> ef8bfaef611f1fc173d3507675dffb367df6ce6a
+
         {
 
         }
