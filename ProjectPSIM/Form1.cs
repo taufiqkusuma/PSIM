@@ -135,6 +135,7 @@ namespace ProjectPSIM
 
         private void btnStok_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (Fstok == null)
             {
                 Fstok = new FormStok();
@@ -154,6 +155,24 @@ namespace ProjectPSIM
         }
 
         private void btnVip_Click(object sender, EventArgs e)
+=======
+
+        }
+
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+
+>>>>>>> 4fcf1a4a2cb690edf68caf8f7e4be38c8d299c7d
         {
             if (Fvip == null)
             {
