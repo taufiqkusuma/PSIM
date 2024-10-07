@@ -27,3 +27,6 @@ D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.exe
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.pdb
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\bin\Debug\Guna.UI2.dll
+D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.FormTransaksi.resources
+D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.FormDashboard.resources
+D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.FormLaporan.resources
