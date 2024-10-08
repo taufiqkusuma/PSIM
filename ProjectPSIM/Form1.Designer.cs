@@ -31,65 +31,61 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnHam = new System.Windows.Forms.PictureBox();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
-            this.pnDasboard = new System.Windows.Forms.Panel();
-            this.btnDashboard = new System.Windows.Forms.Button();
+            this.pnDashboard = new System.Windows.Forms.Panel();
+            this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.pnTransaksi = new System.Windows.Forms.Panel();
-            this.btnTransaksi = new System.Windows.Forms.Button();
+            this.btnTransaksi = new Guna.UI2.WinForms.Guna2Button();
             this.pnStok = new System.Windows.Forms.Panel();
-            this.btnStok = new System.Windows.Forms.Button();
+            this.btnStok = new Guna.UI2.WinForms.Guna2Button();
             this.pnVip = new System.Windows.Forms.Panel();
-            this.btnVip = new System.Windows.Forms.Button();
+            this.btnVIP = new Guna.UI2.WinForms.Guna2Button();
+            this.pnKaryawan = new System.Windows.Forms.Panel();
+            this.btnKaryawan = new Guna.UI2.WinForms.Guna2Button();
             this.pnLaporan = new System.Windows.Forms.Panel();
-            this.btnLaporan = new System.Windows.Forms.Button();
-            this.sidebarTransition = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLaporan = new Guna.UI2.WinForms.Guna2Button();
             this.pnLogout = new System.Windows.Forms.Panel();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-<<<<<<< HEAD
+            this.btnLogout = new Guna.UI2.WinForms.Guna2Button();
+            this.sidebarTransition = new System.Windows.Forms.Timer(this.components);
+            this.btnHam = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnHam)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.sidebar.SuspendLayout();
-            this.pnDasboard.SuspendLayout();
+            this.pnDashboard.SuspendLayout();
             this.pnTransaksi.SuspendLayout();
             this.pnStok.SuspendLayout();
             this.pnVip.SuspendLayout();
+            this.pnKaryawan.SuspendLayout();
             this.pnLaporan.SuspendLayout();
             this.pnLogout.SuspendLayout();
-=======
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
->>>>>>> 4fcf1a4a2cb690edf68caf8f7e4be38c8d299c7d
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.btnHam);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.nightControlBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.btnHam);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1170, 41);
+            this.panel1.Size = new System.Drawing.Size(1200, 41);
             this.panel1.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(74, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(37, 32);
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
             // 
             // nightControlBox1
             // 
@@ -106,7 +102,7 @@
             this.nightControlBox1.EnableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.nightControlBox1.EnableMinimizeButton = true;
             this.nightControlBox1.EnableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.nightControlBox1.Location = new System.Drawing.Point(1031, 0);
+            this.nightControlBox1.Location = new System.Drawing.Point(1061, 0);
             this.nightControlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.nightControlBox1.MaximizeHoverForeColor = System.Drawing.Color.White;
             this.nightControlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -119,35 +115,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
-            this.label1.Location = new System.Drawing.Point(100, 10);
-=======
-            this.label1.Location = new System.Drawing.Point(143, 5);
->>>>>>> 4fcf1a4a2cb690edf68caf8f7e4be38c8d299c7d
+            this.label1.Location = new System.Drawing.Point(116, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 28);
+            this.label1.Size = new System.Drawing.Size(128, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "BEAUTY SALON";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // btnHam
-            // 
-            this.btnHam.Image = ((System.Drawing.Image)(resources.GetObject("btnHam.Image")));
-            this.btnHam.Location = new System.Drawing.Point(12, 3);
-            this.btnHam.Name = "btnHam";
-            this.btnHam.Size = new System.Drawing.Size(41, 35);
-            this.btnHam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnHam.TabIndex = 1;
-            this.btnHam.TabStop = false;
-            this.btnHam.Click += new System.EventHandler(this.btnHam_Click);
             // 
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.sidebar.Controls.Add(this.pnDasboard);
+            this.sidebar.Controls.Add(this.pnDashboard);
             this.sidebar.Controls.Add(this.pnTransaksi);
             this.sidebar.Controls.Add(this.pnStok);
             this.sidebar.Controls.Add(this.pnVip);
+            this.sidebar.Controls.Add(this.pnKaryawan);
             this.sidebar.Controls.Add(this.pnLaporan);
             this.sidebar.Controls.Add(this.pnLogout);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
@@ -156,60 +137,74 @@
             this.sidebar.Margin = new System.Windows.Forms.Padding(0);
             this.sidebar.Name = "sidebar";
             this.sidebar.Padding = new System.Windows.Forms.Padding(0, 30, 0, 0);
-            this.sidebar.Size = new System.Drawing.Size(230, 619);
+            this.sidebar.Size = new System.Drawing.Size(230, 747);
             this.sidebar.TabIndex = 1;
             // 
-            // pnDasboard
+            // pnDashboard
             // 
-            this.pnDasboard.Controls.Add(this.btnDashboard);
-            this.pnDasboard.Location = new System.Drawing.Point(3, 33);
-            this.pnDasboard.Name = "pnDasboard";
-            this.pnDasboard.Size = new System.Drawing.Size(227, 73);
-            this.pnDasboard.TabIndex = 3;
+            this.pnDashboard.Controls.Add(this.btnDashboard);
+            this.pnDashboard.Location = new System.Drawing.Point(3, 33);
+            this.pnDashboard.Name = "pnDashboard";
+            this.pnDashboard.Size = new System.Drawing.Size(227, 73);
+            this.pnDashboard.TabIndex = 11;
             // 
             // btnDashboard
             // 
-            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.btnDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnDashboard.BorderColor = System.Drawing.Color.DeepPink;
+            this.btnDashboard.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDashboard.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDashboard.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDashboard.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDashboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
             this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.ForeColor = System.Drawing.Color.Black;
+            this.btnDashboard.HoverState.FillColor = System.Drawing.Color.DeepPink;
+            this.btnDashboard.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
-            this.btnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.Location = new System.Drawing.Point(-14, -13);
+            this.btnDashboard.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDashboard.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 0);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnDashboard.Size = new System.Drawing.Size(267, 100);
-            this.btnDashboard.TabIndex = 2;
-            this.btnDashboard.Text = "           Dashboard";
-            this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDashboard.UseVisualStyleBackColor = false;
-            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            this.btnDashboard.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnDashboard.PressedDepth = 100;
+            this.btnDashboard.Size = new System.Drawing.Size(227, 73);
+            this.btnDashboard.TabIndex = 16;
+            this.btnDashboard.Text = "      Dashboard";
+            this.btnDashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click_1);
             // 
             // pnTransaksi
             // 
-            this.pnTransaksi.Controls.Add(this.button1);
             this.pnTransaksi.Controls.Add(this.btnTransaksi);
             this.pnTransaksi.Location = new System.Drawing.Point(3, 112);
             this.pnTransaksi.Name = "pnTransaksi";
             this.pnTransaksi.Size = new System.Drawing.Size(227, 73);
-            this.pnTransaksi.TabIndex = 4;
+            this.pnTransaksi.TabIndex = 12;
             // 
             // btnTransaksi
             // 
-            this.btnTransaksi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.btnTransaksi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnTransaksi.BorderColor = System.Drawing.Color.DeepPink;
+            this.btnTransaksi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTransaksi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTransaksi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTransaksi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTransaksi.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
             this.btnTransaksi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTransaksi.ForeColor = System.Drawing.Color.Black;
+            this.btnTransaksi.HoverState.FillColor = System.Drawing.Color.DeepPink;
+            this.btnTransaksi.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnTransaksi.Image = ((System.Drawing.Image)(resources.GetObject("btnTransaksi.Image")));
-            this.btnTransaksi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransaksi.Location = new System.Drawing.Point(-14, -13);
+            this.btnTransaksi.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTransaksi.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnTransaksi.Location = new System.Drawing.Point(0, 0);
             this.btnTransaksi.Name = "btnTransaksi";
-            this.btnTransaksi.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnTransaksi.Size = new System.Drawing.Size(267, 100);
-            this.btnTransaksi.TabIndex = 2;
-            this.btnTransaksi.Text = "           Transaksi";
-            this.btnTransaksi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransaksi.UseVisualStyleBackColor = false;
+            this.btnTransaksi.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnTransaksi.PressedDepth = 100;
+            this.btnTransaksi.Size = new System.Drawing.Size(227, 73);
+            this.btnTransaksi.TabIndex = 16;
+            this.btnTransaksi.Text = "      Transaki";
+            this.btnTransaksi.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTransaksi.Click += new System.EventHandler(this.btnTransaksi_Click);
             // 
             // pnStok
             // 
@@ -217,189 +212,214 @@
             this.pnStok.Location = new System.Drawing.Point(3, 191);
             this.pnStok.Name = "pnStok";
             this.pnStok.Size = new System.Drawing.Size(227, 73);
-            this.pnStok.TabIndex = 5;
+            this.pnStok.TabIndex = 17;
             // 
             // btnStok
             // 
-            this.btnStok.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.btnStok.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnStok.BorderColor = System.Drawing.Color.DeepPink;
+            this.btnStok.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnStok.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnStok.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnStok.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnStok.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
             this.btnStok.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStok.ForeColor = System.Drawing.Color.Black;
+            this.btnStok.HoverState.FillColor = System.Drawing.Color.DeepPink;
+            this.btnStok.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnStok.Image = ((System.Drawing.Image)(resources.GetObject("btnStok.Image")));
-            this.btnStok.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStok.Location = new System.Drawing.Point(-14, -13);
+            this.btnStok.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnStok.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnStok.Location = new System.Drawing.Point(0, 0);
             this.btnStok.Name = "btnStok";
-            this.btnStok.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnStok.Size = new System.Drawing.Size(267, 100);
-            this.btnStok.TabIndex = 2;
-            this.btnStok.Text = "           Stok Barang";
-            this.btnStok.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnStok.UseVisualStyleBackColor = false;
+            this.btnStok.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnStok.PressedDepth = 100;
+            this.btnStok.Size = new System.Drawing.Size(227, 73);
+            this.btnStok.TabIndex = 16;
+            this.btnStok.Text = "      Stok Barang";
+            this.btnStok.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnStok.Click += new System.EventHandler(this.btnStok_Click);
             // 
             // pnVip
             // 
-            this.pnVip.Controls.Add(this.btnVip);
+            this.pnVip.Controls.Add(this.btnVIP);
             this.pnVip.Location = new System.Drawing.Point(3, 270);
             this.pnVip.Name = "pnVip";
             this.pnVip.Size = new System.Drawing.Size(227, 73);
-            this.pnVip.TabIndex = 6;
+            this.pnVip.TabIndex = 17;
             // 
-            // btnVip
+            // btnVIP
             // 
-            this.btnVip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.btnVip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnVip.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVip.ForeColor = System.Drawing.Color.Black;
-            this.btnVip.Image = ((System.Drawing.Image)(resources.GetObject("btnVip.Image")));
-            this.btnVip.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVip.Location = new System.Drawing.Point(-14, -9);
-            this.btnVip.Name = "btnVip";
-            this.btnVip.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnVip.Size = new System.Drawing.Size(267, 100);
-            this.btnVip.TabIndex = 2;
-            this.btnVip.Text = "           VIP";
-            this.btnVip.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVip.UseVisualStyleBackColor = false;
-            this.btnVip.Click += new System.EventHandler(this.btnVip_Click);
+            this.btnVIP.BorderColor = System.Drawing.Color.DeepPink;
+            this.btnVIP.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVIP.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVIP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVIP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVIP.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnVIP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVIP.ForeColor = System.Drawing.Color.Black;
+            this.btnVIP.HoverState.FillColor = System.Drawing.Color.DeepPink;
+            this.btnVIP.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.btnVIP.Image = ((System.Drawing.Image)(resources.GetObject("btnVIP.Image")));
+            this.btnVIP.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnVIP.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnVIP.Location = new System.Drawing.Point(0, 0);
+            this.btnVIP.Name = "btnVIP";
+            this.btnVIP.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnVIP.PressedDepth = 100;
+            this.btnVIP.Size = new System.Drawing.Size(227, 73);
+            this.btnVIP.TabIndex = 16;
+            this.btnVIP.Text = "      VIP";
+            this.btnVIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnVIP.Click += new System.EventHandler(this.btnVIP_Click);
+            // 
+            // pnKaryawan
+            // 
+            this.pnKaryawan.Controls.Add(this.btnKaryawan);
+            this.pnKaryawan.Location = new System.Drawing.Point(3, 349);
+            this.pnKaryawan.Name = "pnKaryawan";
+            this.pnKaryawan.Size = new System.Drawing.Size(227, 73);
+            this.pnKaryawan.TabIndex = 17;
+            // 
+            // btnKaryawan
+            // 
+            this.btnKaryawan.BorderColor = System.Drawing.Color.DeepPink;
+            this.btnKaryawan.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnKaryawan.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnKaryawan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnKaryawan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnKaryawan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnKaryawan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKaryawan.ForeColor = System.Drawing.Color.Black;
+            this.btnKaryawan.HoverState.FillColor = System.Drawing.Color.DeepPink;
+            this.btnKaryawan.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.btnKaryawan.Image = ((System.Drawing.Image)(resources.GetObject("btnKaryawan.Image")));
+            this.btnKaryawan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnKaryawan.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnKaryawan.Location = new System.Drawing.Point(0, 0);
+            this.btnKaryawan.Name = "btnKaryawan";
+            this.btnKaryawan.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnKaryawan.PressedDepth = 100;
+            this.btnKaryawan.Size = new System.Drawing.Size(227, 73);
+            this.btnKaryawan.TabIndex = 16;
+            this.btnKaryawan.Text = "      Karyawan";
+            this.btnKaryawan.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnKaryawan.Click += new System.EventHandler(this.btnKaryawan_Click);
             // 
             // pnLaporan
             // 
-            this.pnLaporan.BackColor = System.Drawing.Color.White;
             this.pnLaporan.Controls.Add(this.btnLaporan);
-            this.pnLaporan.Location = new System.Drawing.Point(3, 349);
+            this.pnLaporan.Location = new System.Drawing.Point(3, 428);
             this.pnLaporan.Name = "pnLaporan";
             this.pnLaporan.Size = new System.Drawing.Size(227, 73);
-            this.pnLaporan.TabIndex = 7;
+            this.pnLaporan.TabIndex = 17;
             // 
             // btnLaporan
             // 
-            this.btnLaporan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.btnLaporan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLaporan.BorderColor = System.Drawing.Color.DeepPink;
+            this.btnLaporan.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLaporan.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLaporan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLaporan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLaporan.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
             this.btnLaporan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLaporan.ForeColor = System.Drawing.Color.Black;
+            this.btnLaporan.HoverState.FillColor = System.Drawing.Color.DeepPink;
+            this.btnLaporan.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnLaporan.Image = ((System.Drawing.Image)(resources.GetObject("btnLaporan.Image")));
-            this.btnLaporan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLaporan.Location = new System.Drawing.Point(-14, -13);
+            this.btnLaporan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnLaporan.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnLaporan.Location = new System.Drawing.Point(0, 0);
             this.btnLaporan.Name = "btnLaporan";
-            this.btnLaporan.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnLaporan.Size = new System.Drawing.Size(267, 100);
-            this.btnLaporan.TabIndex = 2;
-            this.btnLaporan.Text = "           Laporan";
-            this.btnLaporan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLaporan.UseVisualStyleBackColor = false;
+            this.btnLaporan.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnLaporan.PressedDepth = 100;
+            this.btnLaporan.Size = new System.Drawing.Size(227, 73);
+            this.btnLaporan.TabIndex = 16;
+            this.btnLaporan.Text = "      Laporan";
+            this.btnLaporan.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnLaporan.Click += new System.EventHandler(this.btnLaporan_Click);
+            // 
+            // pnLogout
+            // 
+            this.pnLogout.Controls.Add(this.btnLogout);
+            this.pnLogout.Location = new System.Drawing.Point(3, 507);
+            this.pnLogout.Name = "pnLogout";
+            this.pnLogout.Size = new System.Drawing.Size(227, 73);
+            this.pnLogout.TabIndex = 17;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.BorderColor = System.Drawing.Color.DeepPink;
+            this.btnLogout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogout.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.Black;
+            this.btnLogout.HoverState.FillColor = System.Drawing.Color.DeepPink;
+            this.btnLogout.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
+            this.btnLogout.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnLogout.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnLogout.Location = new System.Drawing.Point(0, 0);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnLogout.PressedDepth = 100;
+            this.btnLogout.Size = new System.Drawing.Size(227, 73);
+            this.btnLogout.TabIndex = 16;
+            this.btnLogout.Text = "      Logout";
+            this.btnLogout.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // sidebarTransition
             // 
             this.sidebarTransition.Interval = 10;
             this.sidebarTransition.Tick += new System.EventHandler(this.sidebarTransition_Tick);
             // 
-            // button1
+            // btnHam
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-20, -14);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(267, 100);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "           Transaksi";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pnLogout
-            // 
-            this.pnLogout.Controls.Add(this.btnLogout);
-            this.pnLogout.Controls.Add(this.button3);
-            this.pnLogout.Location = new System.Drawing.Point(3, 428);
-            this.pnLogout.Name = "pnLogout";
-            this.pnLogout.Size = new System.Drawing.Size(227, 73);
-            this.pnLogout.TabIndex = 5;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.btnLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.Black;
-            this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
-            this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(-20, -14);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnLogout.Size = new System.Drawing.Size(267, 100);
-            this.btnLogout.TabIndex = 3;
-            this.btnLogout.Text = "           Logout";
-            this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(-14, -13);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(267, 100);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "           Transaksi";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(88, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(49, 39);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.btnHam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHam.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHam.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHam.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHam.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHam.FillColor = System.Drawing.Color.White;
+            this.btnHam.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnHam.ForeColor = System.Drawing.Color.White;
+            this.btnHam.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(141)))), ((int)(((byte)(170)))));
+            this.btnHam.Image = ((System.Drawing.Image)(resources.GetObject("btnHam.Image")));
+            this.btnHam.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnHam.Location = new System.Drawing.Point(0, 0);
+            this.btnHam.Name = "btnHam";
+            this.btnHam.Size = new System.Drawing.Size(67, 41);
+            this.btnHam.TabIndex = 3;
+            this.btnHam.Click += new System.EventHandler(this.btnHam_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1170, 660);
+            this.ClientSize = new System.Drawing.Size(1200, 788);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "          ";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-<<<<<<< HEAD
-            ((System.ComponentModel.ISupportInitialize)(this.btnHam)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.sidebar.ResumeLayout(false);
-            this.pnDasboard.ResumeLayout(false);
+            this.pnDashboard.ResumeLayout(false);
             this.pnTransaksi.ResumeLayout(false);
             this.pnStok.ResumeLayout(false);
             this.pnVip.ResumeLayout(false);
+            this.pnKaryawan.ResumeLayout(false);
             this.pnLaporan.ResumeLayout(false);
             this.pnLogout.ResumeLayout(false);
-=======
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
->>>>>>> 4fcf1a4a2cb690edf68caf8f7e4be38c8d299c7d
             this.ResumeLayout(false);
 
         }
@@ -407,33 +427,26 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox btnHam;
         private System.Windows.Forms.Label label1;
         private ReaLTaiizor.Controls.NightControlBox nightControlBox1;
         private System.Windows.Forms.FlowLayoutPanel sidebar;
-        private System.Windows.Forms.Button btnDashboard;
-        private System.Windows.Forms.Panel pnDasboard;
-        private System.Windows.Forms.Panel pnTransaksi;
-        private System.Windows.Forms.Button btnTransaksi;
-        private System.Windows.Forms.Panel pnStok;
-        private System.Windows.Forms.Button btnStok;
-        private System.Windows.Forms.Panel pnVip;
-        private System.Windows.Forms.Button btnVip;
-        private System.Windows.Forms.Panel pnLaporan;
-        private System.Windows.Forms.Button btnLaporan;
         private System.Windows.Forms.Timer sidebarTransition;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel pnLogout;
-        private System.Windows.Forms.Button btnLogout;
-        private System.Windows.Forms.Button button3;
-<<<<<<< HEAD
-=======
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox2;
->>>>>>> 4fcf1a4a2cb690edf68caf8f7e4be38c8d299c7d
+        private System.Windows.Forms.Panel pnDashboard;
+        private Guna.UI2.WinForms.Guna2Button btnDashboard;
+        private System.Windows.Forms.Panel pnTransaksi;
+        private Guna.UI2.WinForms.Guna2Button btnTransaksi;
+        private System.Windows.Forms.Panel pnStok;
+        private Guna.UI2.WinForms.Guna2Button btnStok;
+        private System.Windows.Forms.Panel pnVip;
+        private Guna.UI2.WinForms.Guna2Button btnVIP;
+        private System.Windows.Forms.Panel pnKaryawan;
+        private Guna.UI2.WinForms.Guna2Button btnKaryawan;
+        private System.Windows.Forms.Panel pnLaporan;
+        private Guna.UI2.WinForms.Guna2Button btnLaporan;
+        private System.Windows.Forms.Panel pnLogout;
+        private Guna.UI2.WinForms.Guna2Button btnLogout;
+        private Guna.UI2.WinForms.Guna2Button btnHam;
     }
 }
 

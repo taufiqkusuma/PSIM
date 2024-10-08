@@ -17,6 +17,7 @@ namespace ProjectPSIM
         FormTransaksi Ftransaksi;
         FormStok Fstok;
         FormVip Fvip;
+        FormKaryawan Fkaryawan;
         FormLaporan Flaporan;
         FormLogout Flogout;
         public Form1()
@@ -36,15 +37,16 @@ namespace ProjectPSIM
             if (sidebarExpand)
             {
                 sidebar.Width -= 5;
-                if(sidebar.Width <= 60) 
+                if(sidebar.Width <= 65) 
                 { 
                     sidebarExpand = false;
                     sidebarTransition.Stop();
 
-                    pnDasboard.Width = sidebar.Width;
+                    pnDashboard.Width = sidebar.Width;
                     pnTransaksi.Width = sidebar.Width;
                     pnStok.Width = sidebar.Width;
                     pnVip.Width = sidebar.Width;
+                    pnKaryawan.Width = sidebar.Width;
                     pnLaporan.Width = sidebar.Width;
                     pnLogout.Width = sidebar.Width;
                 }
@@ -57,22 +59,17 @@ namespace ProjectPSIM
                     sidebarExpand = true;
                     sidebarTransition.Stop();
 
-                    pnDasboard.Width = sidebar.Width;
+                    pnDashboard.Width = sidebar.Width;
                     pnTransaksi.Width = sidebar.Width;
                     pnStok.Width = sidebar.Width;
                     pnVip.Width = sidebar.Width;
+                    pnKaryawan.Width = sidebar.Width;
                     pnLaporan.Width = sidebar.Width;
                     pnLogout.Width = sidebar.Width;
                 }
             }
         }
-
-        private void btnHam_Click(object sender, EventArgs e)
-        {
-            sidebarTransition.Start();
-        }
-
-        private void btnDashboard_Click(object sender, EventArgs e)
+        private void btnDashboard_Click_1(object sender, EventArgs e)
         {
             if (Fdashboard == null)
             {
@@ -87,39 +84,17 @@ namespace ProjectPSIM
                 Fdashboard.Activate();
             }
         }
-
         private void Dashboard_FormClosed(object sender, FormClosedEventArgs e)
         {
             Fdashboard = null;
         }
-
-        private void btnLaporan_Click(object sender, EventArgs e)
+        private void btnTransaksi_Click(object sender, EventArgs e)
         {
-            if(Flaporan == null)
-            {
-                Flaporan = new FormLaporan();
-                Flaporan.FormClosed += Laporan_FormClosed;
-                Flaporan.MdiParent = this;
-                Flaporan.Dock = DockStyle.Fill;
-                Flaporan.Show();
-            }
-            else
-            {
-                Flaporan.Activate();
-            }
-        }
-        private void Laporan_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Flaporan = null;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if(Ftransaksi == null)
+            if (Ftransaksi == null)
             {
                 Ftransaksi = new FormTransaksi();
                 Ftransaksi.FormClosed += Transaksi_FormClosed;
-                Ftransaksi.MdiParent= this;
+                Ftransaksi.MdiParent = this;
                 Ftransaksi.Dock = DockStyle.Fill;
                 Ftransaksi.Show();
             }
@@ -132,10 +107,8 @@ namespace ProjectPSIM
         {
             Ftransaksi = null;
         }
-
         private void btnStok_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             if (Fstok == null)
             {
                 Fstok = new FormStok();
@@ -153,26 +126,7 @@ namespace ProjectPSIM
         {
             Fstok = null;
         }
-
-        private void btnVip_Click(object sender, EventArgs e)
-=======
-
-        }
-
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-
->>>>>>> 4fcf1a4a2cb690edf68caf8f7e4be38c8d299c7d
+        private void btnVIP_Click(object sender, EventArgs e)
         {
             if (Fvip == null)
             {
@@ -191,7 +145,44 @@ namespace ProjectPSIM
         {
             Fvip = null;
         }
-
+        private void btnKaryawan_Click(object sender, EventArgs e)
+        {
+            if(Fkaryawan == null)
+            {
+                Fkaryawan = new FormKaryawan();
+                Fkaryawan.FormClosed += Karyawan_FormClosed;
+                Fkaryawan.MdiParent = this;
+                Fkaryawan.Dock = DockStyle.Fill;
+                Fkaryawan.Show();
+            }
+            else
+            {
+                Fkaryawan.Activate();
+            }
+        }
+        private void Karyawan_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Fkaryawan = null;
+        }
+        private void btnLaporan_Click(object sender, EventArgs e)
+        {
+            if (Flaporan == null)
+            {
+                Flaporan = new FormLaporan();
+                Flaporan.FormClosed += Laporan_FormClosed;
+                Flaporan.MdiParent = this;
+                Flaporan.Dock = DockStyle.Fill;
+                Flaporan.Show();
+            }
+            else
+            {
+                Flaporan.Activate();
+            }
+        }
+        private void Laporan_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Flaporan = null;
+        }
         private void btnLogout_Click(object sender, EventArgs e)
         {
             if (Flogout == null)
@@ -210,6 +201,19 @@ namespace ProjectPSIM
         private void Logout_FormClosed(object sender, FormClosedEventArgs e)
         {
             Flogout = null;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Fdashboard = new FormDashboard();
+            Fdashboard.MdiParent = this;
+            Fdashboard.Dock = DockStyle.Fill;
+            Fdashboard.Show();
+        }
+
+        private void btnHam_Click_1(object sender, EventArgs e)
+        {
+            sidebarTransition.Start();
         }
     }
 }

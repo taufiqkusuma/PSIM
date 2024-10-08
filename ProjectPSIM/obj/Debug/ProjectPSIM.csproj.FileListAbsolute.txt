@@ -27,11 +27,44 @@ D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.exe
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.pdb
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\bin\Debug\Guna.UI2.dll
-<<<<<<< HEAD
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.FormTransaksi.resources
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.FormDashboard.resources
 D:\KULIAH\SEMESTER 5\PSIM Projecy\PSIM\ProjectPSIM\obj\Debug\ProjectPSIM.FormLaporan.resources
-=======
-D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\bin\Debug\Guna.UI2.dll
-D:\KULIAH\SEMESTER 5\PSIM\Project\ProjectPSIM\ProjectPSIM\obj\Debug\ProjectPSIM.FormLogin.resources
->>>>>>> 4fcf1a4a2cb690edf68caf8f7e4be38c8d299c7d
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ProjectPSIM.exe.config
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ProjectPSIM.exe
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ProjectPSIM.pdb
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\Guna.UI2.dll
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ReaLTaiizor.dll
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ReaLTaiizor.xml
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.AssemblyReference.cache
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.SuggestedBindingRedirects.cache
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.Form1.resources
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.FormDashboard.resources
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.FormLaporan.resources
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.FormLogin.resources
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.FormTransaksi.resources
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.Properties.Resources.resources
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.GenerateResource.cache
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.CoreCompileInputs.cache
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.CopyComplete
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.exe
+D:\projek\PSIM\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.pdb
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ProjectPSIM.exe.config
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ProjectPSIM.exe
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ProjectPSIM.pdb
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\Guna.UI2.dll
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ReaLTaiizor.dll
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\bin\Debug\ReaLTaiizor.xml
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.AssemblyReference.cache
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.SuggestedBindingRedirects.cache
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.Form1.resources
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.FormDashboard.resources
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.FormLaporan.resources
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.FormLogin.resources
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.FormTransaksi.resources
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.Properties.Resources.resources
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.GenerateResource.cache
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.CoreCompileInputs.cache
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.csproj.CopyComplete
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.exe
+D:\projek\PSIM\PSIM-Sidebar\PSIM-94c7e0f6246f4a28d38d9d18ad103c3701d19f55\ProjectPSIM\obj\Debug\ProjectPSIM.pdb
